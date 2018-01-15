@@ -20,7 +20,7 @@ To do data augumentation, we used separate scripts like contrast.py, reshapre.py
 
 This deep neural network is implemented with Keras functional API, which makes it extremely easy to experiment with different interesting architectures.
 
-Output from the network is a 512*512 which represents mask that should be learned. Sigmoid activation function
+Output from the network is a 400*400 which represents mask that should be learned. Sigmoid activation function
 makes sure that mask pixels are in \[0, 1\] range.
 
 ### Training

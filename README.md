@@ -8,11 +8,11 @@ The architecture was inspired by [U-Net: Convolutional Networks for Biomedical I
 
 ### Data
 
-This experiment is carried out for auto-semiconductor mesurement. The original dataset is confidential, so I did not provided in this repository. And for your understanding of the corresponding codes, I still kept the corresponding empty folder.
+This experiment is carried out for implementing semiconductor auto-mesurement. The original dataset is confidential, so It was not permitted to be provided in this repo. But for your understanding of the corresponding codes, I still kept the empty data folder.
 
 ### Pre-processing
 
-The original semiconductor data is .tiff type, for convinient using, I split the data into different .npy file, for training, validation and testing, respectively.
+The original semiconductor image is .tiff type, for convinient using, I split the data into different .npy file, for training, validation and testing, respectively.
 
 To do data augumentation, we used separate scripts like contrast.py, reshapre.py and some bash scripts.
 
